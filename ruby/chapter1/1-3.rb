@@ -1,10 +1,17 @@
-age = 20
 
-unless age >= 20
-  puts "未青年には酒類を提供できません！"
-else
-  puts "おすすめのワインがあります。"
-end
+
+# puts 'おはようございます' if true
+
+# puts 'お疲れさまでした' if false
+
+
+# age = 20
+
+# unless age >= 20
+#   puts "未青年には酒類を提供できません！"
+# else
+#   puts "おすすめのワインがあります。"
+# end
 
 
 # age = 16
