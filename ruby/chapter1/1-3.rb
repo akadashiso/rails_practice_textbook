@@ -1,10 +1,10 @@
-options = { font_size: 100, color: 'red' }
-options[:font_family] = 'Arial'
+# options = { font_size: 100, color: 'red' }
+# options[:font_family] = 'Arial'
 
-options.each do |key, value|
-  puts key
-  puts value
-end
+# options.each do |key, value|
+#   puts key
+#   puts value
+# end
 
 # puts options[:font_size]
 # puts options[:font_family]
