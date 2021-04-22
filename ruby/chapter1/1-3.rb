@@ -1,4 +1,39 @@
+options = { font_size: 100, color: 'red' }
+options[:font_family] = 'Arial'
 
+options.each do |key, value|
+  puts key
+  puts value
+end
+
+# puts options[:font_size]
+# puts options[:font_family]
+
+# { "tokyo" => 1363622, "kanagawa" => 9145572 }
+
+# { "tokyo": 1363622, "kanagawa": 9145572 }
+
+# { :tokyo => 1363622, :kanagawa => 9145572 }
+
+# { tokyo: 1363622, kanagawa: 9145572 }
+
+# { 13 => 1363622, 14 => 9145572 }
+
+
+# -----------------
+# a = [1, 2, 3]
+# a << 4
+
+# # b = ["abc", false, nil, 4, [1, 2, 3]]
+
+# # b.each do |element|
+# #   puts element
+# # end
+
+# for element in a
+#   puts element
+# end
+# -----------------
 
 # puts 'おはようございます' if true
 
